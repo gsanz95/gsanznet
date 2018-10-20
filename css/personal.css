@@ -135,7 +135,7 @@ body {
     text-decoration: underline;
 }
 .card:hover .card-img {
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 .card:hover .card-img-overlay {
@@ -145,12 +145,12 @@ body {
 .card-img {
     opacity: 1;
     border-radius: 0%;
-    transition: .5s ease;
+    transition: .3s ease;
     backface-visibility: hidden;
 }
 
 .card-img-overlay {
-    transition: .5s ease;
+    transition: .3s ease;
     opacity: 0;
     position: absolute;
 }

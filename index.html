@@ -132,14 +132,14 @@
         <div class="container-fluid font-poppins height-full">
             <div class="section h-100">
                 <a class="title text-semibold">Contact<span class="text-lime">.</br></span></a>
-                <form class="col-12 col-md-6 m-0 p-0">
+                <form method="POST" action="./handler.js" class="col-12 col-md-6 m-0 p-0">
                     <div class="form-group">
-                        <label for="mailSender" class="subtitle">Email<span class="text-lime">:</span></label>
-                        <input type="email" class="form-control rounded-0" id="mailSender" placeholder="example@mail.com">
+                        <label for="mailSender" class="subtitle">Your Email<span class="text-lime">:</span></label>
+                        <input type="email" class="form-control rounded-0" name="mailSender" placeholder="example@mail.com">
                     </div>
                     <div class="form-group">
                         <label for="mailContent" class="subtitle">Message<span class="text-lime">:</span></label>
-                        <textarea class="form-control rectangle rounded-0" id="mailContent" placeholder="Your message here"></textarea>
+                        <textarea class="form-control rectangle rounded-0" name="mailContent" placeholder="Your message here"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary rounded-0">Send</button>
                 </form>
